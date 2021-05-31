@@ -1,0 +1,40 @@
+.modelos{
+    margin-top: 100px;
+}
+h3{
+    width: 359px;
+    height: 76px;
+}
+.nm{
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 30px;
+}
+.np{
+    font-family: "Sora";
+    font-weight: 800;
+    font-size: 30px;
+}
+.modelos p{
+    width: 849px;
+    height: 69px;
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 16px;
+}
+.modelos .texto{
+    display: flex;
+    margin-bottom: 90px;
+}
+.modelos .flex{
+    display: flex;
+    
+}
+.peq{
+    width: 309px;
+    height: 258px;
+}
+.gran{
+    width: 631px;
+    height: 464px;
+}

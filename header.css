@@ -1,0 +1,43 @@
+header{
+    margin-top: 40px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logoHeader{
+   margin-top: 50px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-family:"Sora";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    margin-right: 28px;
+}
+header nav button{
+    background-color: black;
+    height: 38px;
+    width: 144px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 50.11px;
+}
+button p{
+    text-decoration: none;
+    color: white;
+    font-family:"Sora";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 10px;    
+}
+
+header a p{
+    
+}

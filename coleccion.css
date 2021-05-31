@@ -1,0 +1,25 @@
+.coleccion{
+    margin-top: 52px;
+}
+.coleccion img{
+    position: relative;
+}
+.coleccion h1{
+    font-family: "Sora";
+    font-weight: 300;
+    color: white;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-left: 11px;
+    
+}
+.posicionamiento{
+    position: absolute;
+    width: 766px;
+    height: 130px;
+    background-color: black;
+    opacity: .66;
+    top: 470px;
+    left: 557px;  
+}

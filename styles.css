@@ -1,0 +1,217 @@
+@import "header.css";
+@import "footer.css";
+@import "coleccion.css";
+@import "modelos.css";
+@import "testimonial.css";
+@import "normalize.css";
+
+body{
+    max-width: 1920px;
+}
+main{
+    max-width: 1294px;
+    margin: auto;
+}
+img{
+    
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 414px) {
+    body {
+      width: 414px;
+      margin: 0px;
+    }  
+  
+  /*main*/
+  @media only screen and (max-width: 414px) {
+    
+    main{
+      height: 2546px;
+    }
+  }
+  
+  /*header*/
+  @media only screen and (max-width: 414px) {
+    header{
+      max-width: 356px;
+      max-height: 55px;
+      margin-top: -40px;
+      margin-left: 15px;
+    }
+    .logoHeader img{
+        width: 100px;
+        height: 28.26px;
+    }
+    header div nav{
+      width: 114px;
+    }
+    nav a {
+      display: none;
+    }
+    button{
+        height: 128px;
+        width: 35px;
+    }
+    button p{
+        font-size: 12px;
+    }
+  }
+  
+  /*coleccion*/
+  @media only screen and (max-width: 414px) {
+    .coleccion{
+      height: 150px;
+      width: 255px;
+      height: 44,05px;
+    }
+    .coleccion h1{
+      font-size: 24px;
+      font-family: "Sora";
+      font-weight: 300;
+      margin-top: 2%;
+      margin-left: 5px;
+      padding: auto;
+    }
+    .coleccion  .posicionamiento{
+      position: relative;
+      top: -140px;
+      left: 31%;
+      width: 255px;
+      height: 44px;
+      padding: 1px;
+    }
+   .coleccion img {
+     width:414px;
+   } 
+   .peq{
+     max-width: 167px;
+     max-height: 140px;
+   }
+   .gran{
+     max-width: 342px;
+     max-height: 250px;
+   }
+   .flex{
+       display: initial;
+   }
+   
+  }
+  /*modelos*/
+  @media only screen and (max-width: 414px) {
+    .modelos{
+      max-width: 360px;
+      
+      display: initial;
+    }
+    .modelos div {
+      display: initial;
+      max-width: 359px;
+    }
+    .modelos .texto{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .nm{
+        font-size: 24px;
+    }
+    .np{
+        font-size: 24px;
+    }
+    .texto {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 36px;
+    }
+    .texto h3 a{
+        display: flex;    
+    }
+    .modelos .texto p{
+      font-size: 16px;
+     
+    }
+    .modelos .flex{
+        display: initial;
+        display: block;
+        margin: auto;
+    }
+  }
+  /*testimonios*/
+  @media only screen and (max-width: 414px){
+    .testimonios{
+      display: initial;
+    }
+    .testimonial{
+      margin-top: 10px;
+      width: 343px;
+      height: 752px;
+    }
+    .testimonial h3{
+        width: 400px;
+    }
+    
+    .testimonios div p{
+      width: 269px;
+      height: 165px;
+      font-size: 16px;
+      margin-top: 17px;
+    }
+    .testi{
+       margin-top: 30px; 
+      
+    }
+    
+    .caja{
+        width: 342px;
+        height: 334px;
+        margin-left: 36px;
+        margin-bottom: 20px;
+    }
+    .caja img{
+        margin-left: 35px;
+        margin-top: 25px;
+        width: 20px;
+        height: 20px;
+    }
+    .caja svg {
+        width: 50px;
+        height: 50px;
+    }
+  }
+  
+  /*footer*/
+  @media only screen and (max-width: 414px){
+    footer{
+      max-width: 414px;
+      display: initial;
+    }
+    footer .logo{
+      display: initial;
+      margin-top: 200px;
+      margin-left: 169px;
+      margin-bottom: 11px;  
+    }
+    footer .logo img{
+        width: 75px;
+        height: 21.2px;
+        margin-top: 96px;
+        margin-bottom: 11px;
+    }
+    footer .redes{
+      display: flex;
+      justify-content: center;
+      margin-left: 70px;
+      width: 239px;
+      margin-bottom: 51px;
+    }
+    
+    footer .logo p{
+      margin-left: 87.5px;
+      margin-bottom: 30px;
+    }
+    footer .desarrollado{
+      margin-left: 107.5px;
+    }
+  }
+
+
+

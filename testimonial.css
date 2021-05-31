@@ -1,0 +1,62 @@
+.testimonial h3{
+    width: 695px;
+    height: 38px;
+    margin-top: 103px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.testimonial h3 span{
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 30px;
+}
+.testimonial h3 a{
+    font-family: "Sora";
+    font-weight: 800;
+    font-size: 30px;
+}
+.testimonios{
+    display: flex;
+    justify-content: space-between;
+}
+.testi{
+    display: flex;
+}
+.caja{
+    background-color: black;
+    width: 632px;
+    height: 275px;
+    border-radius: 8px;
+}
+.caja p{
+    color: white;
+    font-family: "Sora";
+    font-size: 16px;
+    margin-left: 35px;
+}
+.caja svg{
+    border-radius: 100px;
+    margin-left: 35px;
+}
+.caja img{
+    margin-left:  47px;
+    margin-top:  25px;
+}
+.nombre{
+    color: white;
+    margin-left: 35px;
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 16px;
+}
+.provincia{
+    color: white;
+    margin-left: 35px;
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+}

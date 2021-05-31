@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+    margin-bottom: 50.44px;
+}
+.logo{
+    display: flex; 
+    align-items: center;  
+    
+}
+.logo img{
+    height: 28px;
+    width: 100px;
+}
+.logo p{
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 11px;
+    margin-left: 37px;
+    height: 15px;
+    width: 239px;
+}
+.redes{
+    display: flex;
+}
+.desarrollado{
+    display: flex;
+}
+.desarrollado p{
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 11px;
+    width: 102px;
+    height: 15px;
+}
+.redes{
+    margin-left: -210px;
+}
+.redes img{
+    margin-left: 17.55px;
+}
